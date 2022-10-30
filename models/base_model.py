@@ -7,19 +7,25 @@ import engine.file_storage as storage
 
 
 class BaseModel:
-    ''' class of the base model of higher-level data models '''
-    def __init__(self, *arg, **kwargs):
-        ''' BaseModel constructor '''
-        if kwargs:
-            for k in kwargs:
-                if k in ['created_at', 'updated_at']:
-                    setattr(self, k, datetime.fromisoformat(kwargs[k]))
-                elif k != '__class__':
-                    setattr(self, k, kwargs[k])
+       """Represents the BaseModel of the HBnB project."""
+
+    def __init__(self, *args, **kwargs):
+        """Initialize a new BaseModel.
+        Args:
+            *args (any): Unused.
+            **kwargs (dict): Key/value pairs of attributes.
+        """
+        tform = "%Y-%m-%dT%H:%M:%S.%f"
+        self.id = str(uuid4())
+        self.created_at = datetime.today()
+        self.updated_at = datetime.today()
+        if len(kwargs) != 0:
+            for k, v in kwargs.items():
+                if k == "created_at" or k == "updated_at":
+                    self.__dict__[k] = datetime.strptime(v, tform)
+                else:
+                    self.__dict__[k] = v
         else:
-            self.id = str(uuid4())
-            self.created_at = datetime.today()
-            self.updated_at = self.created_at.replace()
             models.storage.new(self)
 
     def save(self):
