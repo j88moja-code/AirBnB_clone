@@ -8,14 +8,14 @@ from datetime import datetime
 from models.base_models import BaseModel
 from models.engine.file_storage import FileStorage
 
-class TestBaseModel(unittest.TestCase):
 
+class TestBaseModel(unittest.TestCase):
     def test_doc(self):
-	'''Test Docstring'''
+        '''Test Docstring'''
         self.assertIsNotNone(BaseModel.__doc__)
 
     def test_str(self):
-	'''Test str method'''
+        '''Test str method'''
         model = BaseModel()
         model_str = (
                 f'[{BaseModel.__name__}], ({model.id}), <{model.__dict__}>')
