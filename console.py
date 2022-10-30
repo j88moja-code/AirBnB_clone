@@ -1,12 +1,23 @@
 #!/usr/bin/python3
 '''contains the entry point of the command interpreter'''
 
+
+import re
 import cmd
-import models
-from models.base_model import BaseModel
+import sys
 import json
+import models
+from datetime import datetime
+from models.base_model import BaseModel
 from models.engine.file_storage import FileStorage
-import os
+from models import storage
+from models.user import User
+from models.amenity import Amenity
+from models.review import Review
+from models.state import State
+from models.place import Place
+from models.base_model import BaseModel
+from models.city import City
 
 
 class HBNBCommand(cmd.Cmd):
