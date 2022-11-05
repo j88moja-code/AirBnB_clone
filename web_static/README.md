@@ -18,6 +18,29 @@ Before starting, the repository `AirBnB_clone` was forked from my partner as I w
 
 ## Contents
 
-- [images]() - contains the images used in the project (logo on the header of index.html file from task 3).
-- [styles]() - the CSS styles written for different tasks of this phase of the project.
-- [index.html]() - the HTML files written for different tasks of this phase of the project.
+- [images](https://github.com/j88moja-code/AirBnB_clone/tree/main/web_static/images) - contains the images used in the project (logo on the header of index.html file from task 3).
+- [styles](https://github.com/j88moja-code/AirBnB_clone/tree/main/web_static/styles) - the CSS styles written for different tasks of this phase of the project.
+- [0-index.html](https://github.com/j88moja-code/AirBnB_clone/blob/main/web_static/0-index.html) - an HTML page that displays a header and a footer.
+
+Layout:
+
+- Body:
+- no margin
+- no padding
+- Header:
+- color #FF0000 (red)
+- height: 70px
+- width: 100%
+- Footer:
+- color #00FF00 (green)
+- height: 60px
+- width: 100%
+- text Best School center vertically and horizontally
+- always at the bottom at the page
+
+Requirements:
+
+- You must use the header and footer tags
+- You are not allowed to import any files
+- You are not allowed to use the style tag in the head tag
+- Use inline styling for all your tags
