@@ -94,4 +94,4 @@ defrancescomartin@LAPTOP-RFLPL88P:~/holbertonschool-AirBnB_clone$
 
 ## Web Static
 
-- [web_static]() - the root folder for the second phase of the `AirBnB_clone` project.
+- [web_static](https://github.com/j88moja-code/AirBnB_clone/tree/main/web_static) - the root folder for the second phase of the `AirBnB_clone` project.
