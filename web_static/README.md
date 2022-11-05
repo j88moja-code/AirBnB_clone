@@ -122,6 +122,7 @@ Before starting, the repository `AirBnB_clone` was forked from my partner as I w
     - width: 100% of the container
     - border 1px #DDDDDD with radius 4px
   - Button search:
+
     - tag button
     - text Search
     - font size: 18px
@@ -134,19 +135,20 @@ Before starting, the repository `AirBnB_clone` was forked from my partner as I w
     - border radius: 4px
     - center vertically and at 30px of the right border
     - change opacity to 90% when the mouse is on the button
-  - Requirements:
 
-  - You must use: `header`, `footer`, `section`, `button` tags
-  - No inline style
-  - You are not allowed to use the `img` tag
-  - You are not allowed to use the style tag in the head tag
-  - All images must be stored in the `images` folder
-  - You must have 4 CSS files:
-    - `styles/4-common.css`: for the global style (`body` and `.container` styles)
-    - `styles/3-header.css`: for the header style
-    - `styles/3-footer.css`: for the footer style
-    - `styles/4-filters.css`: for the filters style
-    - `4-index.html` won’t be W3C valid, don’t worry, it’s temporary
+    * Requirements:
+
+            - You must use: `header`, `footer`, `section`, `button` tags
+            - No inline style
+            - You are not allowed to use the `img` tag
+            - You are not allowed to use the style tag in the head tag
+            - All images must be stored in the `images` folder
+            - You must have 4 CSS files:
+                - `styles/4-common.css`: for the global style (`body` and `.container` styles)
+                - `styles/3-header.css`: for the header style
+                - `styles/3-footer.css`: for the footer style
+                - `styles/4-filters.css`: for the filters style
+                - `4-index.html` won’t be W3C valid, don’t worry, it’s temporary
 
 * [5-index.html](https://github.com/j88moja-code/AirBnB_clone/blob/main/web_static/5-index.html) - an HTML page that displays a header, footer and a filters box.
 
@@ -170,13 +172,13 @@ Before starting, the repository `AirBnB_clone` was forked from my partner as I w
     - text with fake contents
   - Requirements:
 
-  - You must use: header, footer, section, button, h3, h4 tags
-  - No inline style
-  - You are not allowed to use the img tag
-  - You are not allowed to use the style tag in the head tag
-  - All images must be stored in the images folder
-  - You must have 4 CSS files:
-    - styles/4-common.css: for the global style (body and .container styles)
-    - styles/3-header.css: for the header style
-    - styles/3-footer.css: for the footer style
-    - styles/5-filters.css: for the filters style
+            - You must use: header, footer, section, button, h3, h4 tags
+            - No inline style
+            - You are not allowed to use the img tag
+            - You are not allowed to use the style tag in the head tag
+            - All images must be stored in the images folder
+            - You must have 4 CSS files:
+                - styles/4-common.css: for the global style (body and .container styles)
+                - styles/3-header.css: for the header style
+                - styles/3-footer.css: for the footer style
+                - styles/5-filters.css: for the filters style
