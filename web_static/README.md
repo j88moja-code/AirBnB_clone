@@ -20,6 +20,9 @@ Before starting, the repository `AirBnB_clone` was forked from my partner as I w
 
 - [images](https://github.com/j88moja-code/AirBnB_clone/tree/main/web_static/images) - contains the images used in the project (logo on the header of index.html file from task 3).
 - [styles](https://github.com/j88moja-code/AirBnB_clone/tree/main/web_static/styles) - the CSS styles written for different tasks of this phase of the project.
+
+`mandatory tasks`
+
 - [0-index.html](https://github.com/j88moja-code/AirBnB_clone/blob/main/web_static/0-index.html) - an HTML page that displays a header and a footer.
 
   Layout:
@@ -105,7 +108,7 @@ Before starting, the repository `AirBnB_clone` was forked from my partner as I w
 
 * [4-index.html](https://github.com/j88moja-code/AirBnB_clone/blob/main/web_static/4-index.html) - an HTML page that displays a header, footer and a filters box with a search button.
 
-  Layout: (based on 3-index.html)
+  Layout: (based on `3-index.html`)
 
   - Container:
     - between header and footer tags, add a div:
@@ -185,7 +188,7 @@ Before starting, the repository `AirBnB_clone` was forked from my partner as I w
 
 * [6-index.html]() - an HTML page that displays a header, footer and a filters box with dropdown.
 
-  Layout: (based on 5-index.html)
+  Layout: (based on `5-index.html`)
 
   - Update Locations and Amenities filters to display a contextual dropdown when the mouse is on the filter div:
     - tag `ul`
@@ -202,13 +205,49 @@ Before starting, the repository `AirBnB_clone` was forked from my partner as I w
       - state name must be display in a `h2` tag (font size 16px)
   - Requirements:
 
-    - You must use: header, footer, section, button, h3, h4, ul, li tags
-    - No inline style
-    - You are not allowed to use the img tag
-    - You are not allowed to use the style tag in the head tag
-    - All images must be stored in the images folder
-    - You must have 4 CSS files:
-      - `styles/4-common.css`: for the global style (`body` and `.container` styles)
-      - `styles/3-header.css`: for the header style
-      - `styles/3-footer.css`: for the footer style
-      - `styles/6-filters.css`: for the filters style
+            - You must use: header, footer, section, button, h3, h4, ul, li tags
+            - No inline style
+            - You are not allowed to use the img tag
+            - You are not allowed to use the style tag in the head tag
+            - All images must be stored in the images folder
+            - You must have 4 CSS files:
+                - `styles/4-common.css`: for the global style (`body` and `.container` styles)
+                - `styles/3-header.css`: for the header style
+                - `styles/3-footer.css`: for the footer style
+                - `styles/6-filters.css`: for the filters style
+
+* [7-index.html]() - an HTML page that displays a header, footer, a filters box with dropdown and results.
+
+  Layout: (based on `6-index.html`)
+
+  - Add Places section:
+    - tag: `section`
+    - classname: `places`
+    - same level as the filters section, inside .container
+    - contains a title:
+      - tag: `h1`
+      - text: `Places`
+      - align in the top left
+      - font size: 30px
+    - contains multiple “Places” as listing (horizontal or vertical) describe by:
+      - tag: `article`
+      - width: 390px
+      - padding and margin 20px
+      - border #FF5A5F 1px with radius 4px
+      - contains the place name:
+        - tag: `h2`
+        - font size: 30px
+        - center horizontally
+  - Requirements:
+
+          * You must use: `header`, `footer`, `section`, `article`, `button`, `h1`, `h2`, `h3`, `h4`, `ul`, `li` tags
+          * No inline style
+          * You are not allowed to use the `img` tag
+          * You are not allowed to use the style tag in the `head` tag
+          * All images must be stored in the `images` folder
+          * You must have 5 CSS files:
+              * `styles/4-common.css`: for the global style (i.e. `body` and `.container` styles)
+              * `styles/3-header.css`: for the header style
+              * `styles/3-footer.css`: for footer style
+              * `styles/6-filters.css`: for the filters style
+              * `styles/7-places.css`: for the places style
